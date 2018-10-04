@@ -1,0 +1,23 @@
+{
+  "name": "async-demo",
+  "version": "1.0.0",
+  "description": "Server for asyncronous tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyrstron/async-demo.git"
+  },
+  "author": "cystron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyrstron/async-demo/issues"
+  },
+  "homepage": "https://github.com/cyrstron/async-demo#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
