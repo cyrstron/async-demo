@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 app.use('/public', express.static('public'));
 
 app.get('/', (req, res) => {
-  res.sendfile('index.html');
+  res.sendFile(__dirname+'/index.html');
 });
 
 app.get('/stable', (req, res, next) => {
