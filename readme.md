@@ -32,3 +32,25 @@ __Examples__:
 `GET /fail` - fails with random error.
 
 ### Objects API
+
+#### Read
+
+`GET /objects` - return existing objects array
+`GET /objects/{id}` - returns object with id `id`
+
+#### Create
+
+`POST /objects` - takes JSON object and creates it. returns created object with `id`.
+
+#### Update
+
+`PUT /objects/{id}` - takes JSON object and replaces object with id `id` with it. returns replaced object with `id`
+`PATCH /objects/{id}` - takes JSON object and extends object with id `id` with it. returns extended object with `id`
+
+#### Delete
+
+`DELETE /objects/{id}` - deletes object with id `id` with it.
+
+#### URL Parameters
+
+`prob` - error probability (50% by default)
