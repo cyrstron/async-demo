@@ -10,6 +10,7 @@
 __Examples__:
 
 `GET /stable?maxRandom=10` - returns number from 1 to 10.
+
 `GET /stable` - returns empty string.
 
 ### Unstable request
@@ -19,7 +20,9 @@ __Examples__:
 __Examples__:
 
 `GET /unstable?maxRandom=10&prob=60&status=500` - returns number from 1 to 10 with error 500 probability 60%.
+
 `GET /unstable?maxRandom=10&prob=70` - returns number from 1 to 10 with random error probability 70%.
+
 `GET /unstable` - returns empty string with random error probability 50%.
 
 ### Failed request
@@ -29,6 +32,7 @@ __Examples__:
 __Examples__:
 
 `GET /fail?status=500` - fails with error 500.
+
 `GET /fail` - fails with random error.
 
 ### Objects API
@@ -36,6 +40,7 @@ __Examples__:
 #### Read
 
 `GET /objects` - return existing objects array
+
 `GET /objects/{id}` - returns object with id `id`
 
 #### Create
@@ -45,6 +50,7 @@ __Examples__:
 #### Update
 
 `PUT /objects/{id}` - takes JSON object and replaces object with id `id` with it. returns replaced object with `id`
+
 `PATCH /objects/{id}` - takes JSON object and extends object with id `id` with it. returns extended object with `id`
 
 #### Delete
