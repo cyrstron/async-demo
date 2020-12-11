@@ -64,7 +64,6 @@ objectsRouter.put('/:id', (req, res) => {
     });
 });
 
-
 objectsRouter.patch('/:id', (req, res) => {
     const value = req.body;
     const {id} = req.params;    
