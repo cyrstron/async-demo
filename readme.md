@@ -9,7 +9,7 @@
 
 __Examples__:
 
-`GET /stable?maxRandom=10` - returns number from 1 to 10.
+`GET /stable?maxRandom=10` - returns number from 0 to 10.
 
 `GET /stable` - returns empty string.
 
